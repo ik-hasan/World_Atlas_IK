@@ -1,12 +1,54 @@
-# React + Vite
+# World_Atlas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application built using **React + Vite**, that allows users to explore detailed information about countries around the world.
 
-Currently, two official plugins are available:
+Powered by the **REST Countries API**, this project provides data like population, capital, native name, currency, region, and more.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    -Fetch real-time data of all countries
+    -Search countries by name
+    -Filter countries by region
+    -View detailed info of each country
+    -Fast performance with Vite
+
+
+##  Tech Stack
+
+- **Frontend**: React.js, Vite
+- **Styling**: CSS3
+- **Data Source**: REST Countries API
+- **Package Manager**: npm
+
+## Live Demo - 
+    https://world-atlas-ik.netlify.app/
+
+## Author
+    IKRAMUL HASAN – https://github.com/ik-hasan
+
+## Project Structure
+    world-atlas/
+    ├── public/
+    │   ├── images/
+    │   └── vite.svg
+    │
+    ├── src/
+    │   ├── API/                
+    │   ├── assets/            
+    │   ├── components/
+    │   │   ├── Layout/         
+    │   │   └── UI/              
+    │   ├── pages/              
+    │   ├── App.jsx             
+    │   ├── App.css            
+    │   ├── index.css          
+    │   └── main.jsx             
+    │
+    ├── .gitignore
+    ├── eslint.config.js
+    ├── index.html
+    ├── package.json
+    ├── package-lock.json
+    ├── vite.config.js
+    └── README.md
