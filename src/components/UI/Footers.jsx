@@ -27,16 +27,17 @@ export const Footers = () => {
           );
         })}
       </div>
-
+      
       <div className="copyright-area">
         <div className="container">
           <div className="grid grid-two-cols">
             <div className="copyright-text">
               <p>
-                Copyright &copy; 2024, All Right Reserved
+                Copyright &copy; 2025 by 
                 <NavLink to="https://www.linkedin.com/in/ikramul-hasan/" target="_blank">
-                  Ikramul Hasan
+                  Ikramul Hasan 
                 </NavLink>
+                . All Right Reserved
               </p>
             </div>
 
@@ -56,7 +57,7 @@ export const Footers = () => {
                 </li>
                 <li>
                   <NavLink
-                    to="MY GITHUB REPO"
+                    to="https://github.com/ik-hasan/World_Atlas_IK.git"
                     target="_blank"
                   >
                     Source Code
