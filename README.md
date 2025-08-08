@@ -17,7 +17,7 @@ Powered by the **REST Countries API**, this project provides data like populatio
 ##  Tech Stack
 
 - **Frontend**: React.js, Vite
-- **Styling**: CSS3
+- **Styling**: CSS
 - **Data Source**: REST Countries API
 - **Package Manager**: npm
 
